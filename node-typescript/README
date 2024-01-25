@@ -1,0 +1,28 @@
+## CONSIGNE
+
+Le test consiste à générer une liste de string à partir de préfixes.
+Le code doit être en typescript, typé sans erreur.
+Pour le fichier tsconfig.json, vous utiliserez celui-là: https://github.com/tsconfig/bases/blob/main/bases/node18.json
+Il faut imaginer les fonctions réutilisables, les préfixes pourraient changer plus tard par exemple.
+La fonctionnalité sera testée à l'aide d'un test unitaire écrit avec jest.
+
+## BONUS
+
+N'hésitez pas à nous montrer ce que vous êtes capable de faire, vos bonnes pratiques et idées.
+
+## DATA & RESULTATS
+
+Préfixes en entrée: ['c', 'n', 's']
+
+Résultat attendu dans cet ordre:
+[
+'c',
+'cn',
+'cns',
+'cs',
+'n',
+'ns',
+'s'
+]
+
+Bon courage !
