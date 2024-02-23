@@ -1,17 +1,14 @@
 {
   "name": "node_tricks",
   "version": "1.0.0",
-  "description": "TypeScript test array",
+  "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "test": "npx jest",
-    "start": "tsc && node src/app.js"
+    "start": "node run app.js"
   },
   "author": "Lilian Mahut <contact@lilianmahut.dev>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^29.5.11",
-    "prettier": "^3.2.4",
-    "typescript": "^5.3.3"
+    "prettier": "^3.2.4"
   }
 }
